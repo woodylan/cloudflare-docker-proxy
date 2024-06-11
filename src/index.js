@@ -4,6 +4,8 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
+  "docker.hkdylan.workers.dev/": "https://registry-1.docker.io",
+  "docker.sanqiushu.com": "https://registry-1.docker.io",
   "docker.libcuda.so": "https://registry-1.docker.io",
   "quay.libcuda.so": "https://quay.io",
   "gcr.libcuda.so": "https://gcr.io",
